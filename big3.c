@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void big3(int a, int b, int c) {
+void big3(int a, int b, int M) {
     if (a >= b && a >= c)
         printf("Biggest: %d\n", a);
     else if (b >= a && b >= c)

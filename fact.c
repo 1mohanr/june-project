@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void factorial(int n) {
+void factorial(int RSMA) {
     int fact = 1;
     for (int i = 1; i <= n; i++) {
         fact *= i;
